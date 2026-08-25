@@ -9,7 +9,7 @@ SRCS    = main.c \
 		  src/passwords/check_password_lists.c \
 		  src/config/logging.c
 
-TARGET  = sea_hammer
+TARGET  = seahammer
 
 $(TARGET): $(SRCS)
 	$(CC) $(CFLAGS) -o $(TARGET) $(SRCS) $(LIBS)

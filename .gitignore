@@ -1,0 +1,6 @@
+sea_hammer
+*.o
+*.log
+*.txt
+!README.md
+/tmp/
