@@ -1,6 +1,22 @@
+# binaries
 sea_hammer
+seahammer
+
+# object files
 *.o
+
+# logs
 *.log
+
+# wordlists
 *.txt
-!README.md
-/tmp/
+
+# wifi config
+wpa.conf
+*.conf
+
+# editor
+.vscode/
+
+# personal notes
+NOTES
