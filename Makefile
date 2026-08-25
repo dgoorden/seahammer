@@ -1,5 +1,5 @@
 CC      = gcc
-CFLAGS = -Wall -Wextra -I. -Ilib -Isrc -DCONFIG_CTRL_IFACE -DCONFIG_CTRL_IFACE_UNIX
+CFLAGS = -Wall -Wextra -I. -Ilib -Isrc -Iinclude -DCONFIG_CTRL_IFACE -DCONFIG_CTRL_IFACE_UNIX
 LIBS    =
 
 SRCS    = main.c \
