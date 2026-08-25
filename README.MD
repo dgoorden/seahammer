@@ -42,7 +42,7 @@ sudo ./seahammer -i wlan0 -s wifi-corp -u "CONTOSO\\test" -w rockyou.txt -l resu
 Pre-compiled binaries for x86_64 Linux are available on the [Releases](https://github.com/dgoorden/seahammer/releases) page.
 
 ```bash
-wget https://github.com/dgoorden/seahammer/releases/download/v0.1/seahammer
+wget wget https://github.com/dgoorden/seahammer/releases/download/0.1/seahammer
 chmod +x seahammer
 sudo ./seahammer -i wlan0 -s <ssid> -u <username> -w <wordlist>
 ```
