@@ -27,3 +27,5 @@ sudo ./seahammer -i wlan0 -s <ssid> -u <username> -w <wordlist>
 
 ## wpa_ctrl dependency
 `wpa_ctrl.c` and `wpa_ctrl.h` are included in `lib/` and pre-patched to compile standalone without the full hostap source tree. No additional steps needed.
+
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
