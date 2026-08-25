@@ -1,17 +1,17 @@
-# sea_hammer
+## Building from source
 
-A WPA2-Enterprise (PEAP/MSCHAPv2) credential sprayer written in C.
-Ported from [air-hammer](https://github.com/Wh1t3Rh1n0/air-hammer).
+### Requirements
+- Linux
+- gcc
+- make
+- wpa_supplicant
 
-## Usage
+### Steps
 ```bash
-./sea_hammer -i wlan0 -s <ssid> -u <username> -w <wordlist> [-v] [-l logfile]
+git clone https://github.com/dgoorden/seahammer.git
+cd seahammer
+make
 ```
 
-## Requirements
-- Linux
-- wpa_supplicant
-- gcc
-
-## Disclaimer
-For use only on networks you own or have explicit permission to test.
+### wpa_ctrl dependency
+`wpa_ctrl.c` and `wpa_ctrl.h` are included in `lib/` and pre-patched to compile standalone without the full hostap source tree. No additional steps needed.
